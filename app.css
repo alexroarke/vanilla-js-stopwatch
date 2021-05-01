@@ -2,7 +2,7 @@
 
 body {
   font-family: Poppins;
-  background: orange;
+  background: #2b2e4a;
   color: white;
 }
 
@@ -25,6 +25,7 @@ body {
 .btns button {
   /* padding: 20px; */
   color: white;
+  font-size: 18px;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 5px;
@@ -35,6 +36,6 @@ body {
 .btns button:hover {
   cursor: pointer;
   background: white;
-  color: orange;
+  color: #222831;
   transition: all 0.25s ease-in;
 }
