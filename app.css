@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+body {
+  font-family: Poppins;
+  background: orange;
+  color: white;
+}
+
+.container {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.container ul {
+  list-style: none;
+}
+
+.stopwatch {
+  font-size: 30px;
+
+}
+
+.btns button {
+  /* padding: 20px; */
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin-right: 35px;
+}
+
+.btns button:hover {
+  cursor: pointer;
+  background: white;
+  color: orange;
+  transition: all 0.25s ease-in;
+}
